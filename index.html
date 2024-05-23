@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <!--Navbar-->
+            <nav class="navbar bg-body-tertiary fixed-top" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Mesa Diversión S.A.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Categorías
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="estrategia.html">Estrategia</a></li>
+                                        <li><a class="dropdown-item" href="rol.html">Rol</a></li>
+                                        <li><a class="dropdown-item" href="trivia.html">Trivia</a></li>
+                                        <li><a class="dropdown-item" href="cartas.html">Cartas</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="register.html">Registrarse</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Más Vendidos -->
+            <section class="mt-5 pt-5 justify-content-center">
+                <div class="container ">
+                    <h2 class="text-center my-4 custom-title text-light"><strong>Más Vendidos</strong></h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center align-items-stretch">
+                        <div class="col mb-4">
+                            <div class="card h-100" style="max-width: 540px;">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-4">
+                                        <img src="img/dungeons-dragons.jpg" class="img-fluid rounded-start h-100"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dungeon and Dragons</h5>
+                                            <p class="card-text">"Dungeons & Dragons es un juego de rol de fantasía que
+                                                transporta a los jugadores a mundos imaginarios llenos de aventuras,
+                                                criaturas místicas y emocionantes desafíos"
+                                            </p>
+                                            <p class="card-text"><small class="text-body-secondary">actualizado hace 3
+                                                    minutos</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100" style="max-width: 540px;">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-4">
+                                        <img src="img/catan.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Catan</h5>
+                                            <p class="card-text">"Descubre Catan, un emocionante juego de mesa donde los
+                                                jugadores colonizan una isla, comercian recursos y compiten por la
+                                                supremacía, en una experiencia de estrategia y negociación inigualable."
+                                            </p>
+                                            <p class="card-text"><small class="text-body-secondary">actualizado hace 3
+                                                    minutos</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100" style="max-width: 540px;">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-4">
+                                        <img src="img/iknow.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.
+                                            </p>
+                                            <p class="card-text"><small class="text-body-secondary">actualizado hace 3
+                                                    minutos</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100" style="max-width: 540px;">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-4">
+                                        <img src="img/exit.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Exit la masión siniestra</h5>
+                                            <p class="card-text">"Exit: La Mansión Siniestra es un juego de escape room
+                                                de mesa donde los jugadores deben resolver acertijos y misterios para
+                                                escapar de una mansión embrujada."
+                                            </p>
+                                            <p class="card-text"><small class="text-body-secondary">actualizado hace 3
+                                                    minutos</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script/main.js"></script>
+    </div>
+</body>
+
+</html>

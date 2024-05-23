@@ -1,0 +1,20 @@
+.custom-title {
+    color: #3b3939;
+    background-color: #ff0202b9; /* Fondo azul con transparencia */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(231, 148, 100, 0.781);
+    position: relative;
+    overflow: hidden;
+}
+.custom-title::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(15px);
+    z-index: -1;
+}
